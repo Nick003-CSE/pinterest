@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="capGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" ry="14" fill="#111827"/>
+  <g transform="translate(8 10)">
+    <path
+      d="M24 2L2 10l22 8 22-8L24 2z"
+      fill="url(#capGradient)"
+    />
+    <path
+      d="M10 19v9c0 4.5 6.3 8 14 8s14-3.5 14-8v-9l-14 5-14-5z"
+      fill="#0f172a"
+    />
+    <circle cx="42" cy="18" r="2" fill="#facc15"/>
+    <path
+      d="M42 20v10"
+      stroke="#facc15"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>
+
