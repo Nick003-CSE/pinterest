@@ -499,7 +499,7 @@ const PinDetailPage: React.FC = () => {
                       role="status"
                       aria-hidden="true"
                     />
-                    {isLiked ? 'Unliking...' : 'Liking...'}
+                    {isLiked ? 'Liking...' : 'Unliking...'}
                   </>
                 ) : (
                   isLiked ? `❤️ Liked (${engagement.likes})` : `🤍 Like (${engagement.likes})`
